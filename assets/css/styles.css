@@ -1,0 +1,303 @@
+@font-face {
+    font-family: Minecraftia;
+    src: url(../font/Minecraftia.ttf);
+}
+
+body {
+    background-color: #232323;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    color: white;
+}
+
+p, h1 {
+    cursor: default
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navbar i {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar button {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+}
+
+.navbar button:hover {
+    cursor: pointer;
+}
+
+.info {
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 5px;
+    margin-top: 50px;
+}
+
+.pfp {
+    height: 200px;
+    width: 200px;
+    border-style: none;
+    border-radius: 100%;
+}
+
+.easteregg {
+    cursor: default;
+}
+
+.name {
+    color: #0064FF;
+    font-size: 30px;
+}
+
+.description {
+    color: #a3a3a3;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.socials, .blusmp, .links {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.linktitle {
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 10px;
+}
+
+.linkdsc {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.linkimg {
+    height: 130px;
+}
+
+.links {
+    margin: auto;
+}
+
+.second > p {
+    cursor: pointer;
+}
+
+.container {
+    width: 550px;
+    background-color: #ffffff00;
+    margin: auto;
+}
+
+.first {
+    width: 130px;
+    float: left;
+    height: 200px;
+}
+
+.second {
+    width: 200px;
+    float: right;
+    height: 200px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.minecraft {
+    background: url(../img/dirt.png);
+    background-size: 64px 64px;
+    background-repeat: repeat;
+    image-rendering: pixelated;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: Minecraftia;
+    margin: auto;
+    width: 700px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.discord:visited, .discord:link, .map:visited, map:link {
+    color: #A0A0A0;
+}
+
+.discord:hover {
+    color: #5662F6;
+}
+
+.map:hover {
+    color: #00FF00;
+}
+
+.ipaddress {
+    background-color: black;
+    border-style: solid;
+    border-color: #A0A0A0;
+    width: 500px;
+    margin: auto;
+}
+
+.ipaddress > p {
+    text-align: left;
+    line-height: 0px;
+    padding-top: 10px;
+    font-size: 17px;
+    padding-left: 10px;
+    -webkit-user-select: text; /* Safari */        
+    -moz-user-select: text; /* Firefox */
+    -ms-user-select: text; /* IE10+/Edge */
+    user-select: text; /* Standard */
+}
+
+.ipaddress:hover {
+    color: #A0A0A0;
+}
+
+.license {
+    font-size: 18px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+ 
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+ 
+a:hover {
+    color: #0064FF;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .pfp {
+        height: 300px;
+        width: 300px;
+    }
+    .name {
+        font-size: 70px;
+    }
+    
+    .description {
+        font-size: 30px;
+    }
+
+    .socials, .blusmp, .links {
+        font-size: 45px;
+    }
+
+    .minecraft {
+        padding-top: 40px;
+        padding-bottom: 50px;
+        width: 950px;
+        line-height: 25px;
+        margin-bottom: 80px;
+    }
+
+    .ipaddress {
+        width: 850px;
+    }
+
+    .ipaddress > p {
+        padding-top: 10px;
+        font-size: 35px;
+        padding-left: 10px;
+    }
+
+    .discord {
+        line-height: 100px;
+    }
+
+    
+.container {
+    width: 850px;
+}
+
+.first {
+    width: 150px;
+    height: 230px;
+    margin-bottom: 50px;
+}
+
+.second {
+    width: 370px;
+    height: 230px;
+}
+
+.clear {
+    clear: both;
+}
+
+.linktitle {
+    font-size: 50px;
+    line-height: 0px;
+}
+
+.linkdsc {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.linkimg {
+    height: 200px;
+}
+
+}
+
+.lightMode {
+    background-color: #dddddd;
+    color: #000000;
+}
+
+.lightMode a:visited, .lightMode a:link, .lightMode a:hover {
+    color: black;
+}
+
+.lightMode .minecraft {
+    color: white;
+}
+
+#cookie {
+    font-family: sans-serif;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    background-color: #636363;
+    color: white;
+    text-align: center;
+}
+
+#cookie button {
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #232323;
+}
+
+#cookie button:hover {
+    cursor: pointer;
+}
